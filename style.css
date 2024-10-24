@@ -18,8 +18,13 @@ ul {
 	list-style-type: none;
 }
 
-.header,
-.footer {
+nav {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.header {
 	background-color: #1f2937;
 }
 
@@ -39,12 +44,6 @@ a {
 .header {
 	padding: 20px 10%;
 	padding-bottom: 100px;
-}
-
-nav {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 30px;
 }
 
 .pages {
@@ -77,4 +76,44 @@ button {
 
 .logo {
 	flex-shrink: 0;
+}
+
+/* info-section */
+
+.info-section {
+	display: flex;
+	flex-direction: column;
+	padding: 20px 10%;
+	align-items: center;
+	gap: 30px;
+	padding-bottom: 100px;
+}
+
+.info-heading {
+	font-size: 36px;
+	font-weight: 900;
+	color: #1f2937;
+}
+
+.cards {
+	display: flex;
+	gap: 40px;
+}
+
+.card {
+	width: 200px;
+	text-align: center;
+}
+
+.code-image {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 10px;
+	border: none;
+}
+
+p {
+	font-size: 18px;
+	color: #333333;
 }
