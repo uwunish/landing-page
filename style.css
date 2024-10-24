@@ -176,3 +176,17 @@ a {
 	padding: 10px 30px;
 	font-weight: bold;
 }
+
+/* footer */
+
+.footer {
+	background-color: #1f2937;
+	padding: 30px 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.copyright {
+	color: #e5e7eb;
+}
